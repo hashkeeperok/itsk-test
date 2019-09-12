@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link rel="canonical" href="cooksin.space">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center win-1">
+        <div class="col-md-auto">
+          <h5>Размерность массива M (2-20)</h5>
+          <form>
+            <div class="form-row align-items-center">
+              <div class="col-6">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">М</div>
+                  </div>
+                  <input type="number" max="20" min="2" class="form-control" id="M" required>
+                </div>
+              </div>
+              <div class="col-6">
+                <button type="submit" class="btn btn-primary btn-block">Окей</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-md-center win-2" style="display:none;">
+        <div class="col-md-auto">
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto inner">
+             
+            </div>
+          </div>
+          <div class="row justify-content-md-center m-2">
+            <div class="col-md-auto">
+             <button class="btn btn-primary btn-block" id="go" data-restart="false" >Преобразовать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center win-3" style="display:none;">
+        <div class="col-md-auto inner">
+
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="main.js" ></script>
+  </body>
+  </html>
